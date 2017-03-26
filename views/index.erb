@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Ceasar Cipher</title>
+  </head>
+  <body>
+    <table>
+      <form method="post" action="/">
+        <tr>
+          <td>Message:</td>
+          <td><input type="text" name="message" id="message"> </td>
+        </tr>
+        <tr>
+          <td>Shift Value:</td>
+          <td><input type="text" name="shift" id="shift"> </td>
+        </tr>
+        <tr>
+          <td><input type="submit"></td>
+        </tr>
+      </form>
+    </table>
+    <p>Encrypted Message: <%= @shift_message %></p>
+  </body>
+</html>
